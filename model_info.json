@@ -1,0 +1,25 @@
+{
+  "features": [
+    "hour",
+    "day_of_week",
+    "temperature_c",
+    "humidity_pct",
+    "occupants",
+    "appliances_on",
+    "is_holiday"
+  ],
+  "metrics": {
+    "r2": 0.9506372986449356,
+    "mae": 0.2277474766883463,
+    "rmse": 0.28558562948892846
+  },
+  "importance": {
+    "hour": 0.04262337667964113,
+    "day_of_week": 0.0075435083036713224,
+    "temperature_c": 0.20743613889488155,
+    "humidity_pct": 0.012127059298468652,
+    "occupants": 0.09626797929408819,
+    "appliances_on": 0.6331128362602895,
+    "is_holiday": 0.0008891012689597366
+  }
+}
